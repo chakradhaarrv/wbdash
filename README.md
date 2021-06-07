@@ -1,24 +1,7 @@
 # wbdash
 
-In this exercise, you'll deploy a web app to Heroku. The files you'll need are in the 5_deployment folder.
 
-## RUN THE APP LOCALLY
-1. Start the local server:
-```bash
-cd 5_deployment
-python worldbank.py
-```
-
-2. Verify in the browser: In the terminal, use this command to get the link for vieweing the app:
-```
-env | grep WORK
-```
-The link wil be:
-http://<WORKSPACESPACEID>-3001.<WORKSPACEDOMAIN> replacing WORKSPACEID and WORKSPACEDOMAIN with your values. Head to the deployment only if your app is running successfully locally. 
-
-
-
-## DEPLOYMENT TO HEROKU PLATFORM
+### DEPLOYMENT TO HEROKU PLATFORM
 Create the Heroku account: Go to www.heroku.com and create an account if you haven't already. Then, follow the process given in the previous video:
 
 1. Open a new terminal, and create the application folder:
@@ -89,4 +72,4 @@ heroku config
 git push heroku master
 ```
 
-Go to the link for your web app to see if it's working. The link should be https://app-name.heroku.com
+Go to the link for your web app to see if it's working. The link should be https://wbdash.herokuapp.com
