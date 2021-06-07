@@ -1,7 +1,7 @@
 # wbdash
 
 
-# DEPLOYMENT TO HEROKU PLATFORM
+### DEPLOYMENT TO HEROKU PLATFORM
 Create the Heroku account: Go to www.heroku.com and create an account if you haven't already. Then, follow the process given in the previous video:
 
 1. Open a new terminal, and create the application folder:
