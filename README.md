@@ -89,4 +89,4 @@ heroku config
 git push heroku master
 ```
 
-Go to the link for your web app to see if it's working. The link should be https://app-name.heroku.com
+Go to the link for your web app to see if it's working. The link should be https://wbdash.herokuapp.com
